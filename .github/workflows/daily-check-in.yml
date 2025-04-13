@@ -2,7 +2,7 @@ name: Daily Check-in
 
 on:
   schedule:
-    - cron: '1 */13 * * *'  # 每12小时执行一次
+    - cron: '0 */14 * * *'  # 每12小时执行一次
   workflow_dispatch:
 
 jobs:
